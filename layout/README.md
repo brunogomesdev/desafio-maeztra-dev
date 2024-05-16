@@ -1,8 +1,37 @@
-# React + Vite
+## React App com Vite
+Este projeto é uma aplicação React configurada para desenvolvimento com Vite. Vite oferece um ambiente de desenvolvimento rápido com hot module replacement (HMR) para atualizações instantâneas no navegador.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Pré-requisitos
+Node.js (>= 18) - https://nodejs.org/en/about/previous-releases
 
-Currently, two official plugins are available:
+## Instalação
+1 - Clone o repositório:
+    git clone https://github.com/brunogomesdev/desafio-maeztra-dev.git
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2 - Navegue para a pasta do projeto:
+    cd seu-projeto
+
+3 - Instale as dependências:
+    npm install
+
+## Desenvolvimento
+
+1 - Inicie o servidor de desenvolvimento:
+    npm run dev
+
+Isso abrirá o aplicativo no navegador (geralmente em http://localhost:5173/).
+
+2 - Faça alterações no código React e veja as atualizações refletidas instantaneamente no navegador com HMR.
+
+## Build de Produção
+1 - Crie um build otimizado para produção:
+    npm run build
+
+Isso criará uma pasta dist contendo os arquivos compilados da sua aplicação.
+
+## Script Disponíveis
+npm run dev: Inicia o servidor de desenvolvimento
+npm run build: Cria um build de produção
+
+## Contribuindo
+Sinta-se à vontade para enviar pull requests com melhorias e correções.
