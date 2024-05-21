@@ -18,16 +18,31 @@ const Destaques = () => {
       <div id="mz-destaques">
         <div className="slider-container">
           <Slider {...settings}>
-            <div className="mz-destaques-slider01">
-              <h3>Promoções de Outono</h3>
-              <p>Confiras os melhores looks para combinar com você nesse Outono</p>
-            </div>
-            <div className="mz-destaques-slider02">
-              <h3>Slider 02</h3>
-            </div>
-            <div className="mz-destaques-slider03">
-            < h3>Slider 03</h3>
-            </div>
+            
+              <div className="mz-destaques-slider01">
+                <div className="mz-destaques-slider-container">
+                  <h3>Promoções de Outono</h3>
+                  <p>Confiras os melhores looks para combinar<br />com você nesse Outono</p>
+                  <button type="submit">Enviar</button>
+                </div>
+              </div>
+
+              <div className="mz-destaques-slider02">
+                <div className="mz-destaques-slider-container">
+                  <h3>Promoções de Outono</h3>
+                  <p>Confiras os melhores looks para combinar<br />com você nesse Outono</p>
+                  <button type="submit">Enviar</button>
+                </div>
+              </div>
+
+              <div className="mz-destaques-slider03">
+                <div className="mz-destaques-slider-container">
+                  <h3>Promoções de Outono</h3>
+                  <p>Confiras os melhores looks para combinar<br />com você nesse Outono</p>
+                  <button type="submit">Enviar</button>
+                </div>
+              </div>
+            
           </Slider>
         </div>
       </div>
