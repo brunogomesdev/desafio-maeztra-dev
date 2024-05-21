@@ -1,0 +1,59 @@
+.mz-destaques-slider01 {
+    background-image:  url('/src/assets/images/slide01.jpg');
+}
+
+.mz-destaques-slider02 {
+    background-image:  url('/src/assets/images/slide01.jpg');
+}
+
+.mz-destaques-slider03 {
+    background-image:  url('/src/assets/images/slide01.jpg');
+}
+
+.mz-destaques-slider01, .mz-destaques-slider02, .mz-destaques-slider03 {
+    height: 600px;
+}
+
+.slick-next {
+    left: 95%;
+
+    &:before {
+        background-image:  url('/src/assets/images/next.png');
+        content: '>' !important;
+        color: transparent !important;
+        width: 20px;
+        height: 32px;
+        display: block;
+        position: absolute;
+    }
+}
+
+.slick-prev {
+    left: 5% !important;
+    z-index: 9 !important;
+
+    &:before {
+        background-image:  url('/src/assets/images/prev.png');
+        content: '>' !important;
+        color: transparent !important;
+        width: 20px;
+        height: 32px;
+        display: block;
+        position: absolute;
+    }
+}
+
+.slick-dots {
+    bottom: 25px !important;
+
+    li {
+        width: 16px;
+        height: 16px;
+        border-radius: 15px;
+        border: 2px solid #FAA500;
+        margin: 0 10px !important;
+    }
+    .slick-active {
+        background-color: #FAA500;
+    }
+}
