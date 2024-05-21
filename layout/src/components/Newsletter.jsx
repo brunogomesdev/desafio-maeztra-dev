@@ -3,7 +3,7 @@ import '../styles/marcas.scss'
 const Marcas = () => {
     return (
       <div id="mz-marcas">
-        <p>Marcas</p>
+        <p></p>
       </div>
     );
   };

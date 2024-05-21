@@ -3,7 +3,7 @@ import '../styles/carousel.scss'
 const Carousel = () => {
     return (
       <div id="mz-carousel">
-        <p>Carousel</p>
+        <p></p>
       </div>
     );
   };

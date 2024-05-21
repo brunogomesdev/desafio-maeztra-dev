@@ -3,7 +3,7 @@ import '../styles/colecao.scss'
 const Colecao = () => {
     return (
       <div id="mz-colecao">
-        <p>Colecao</p>
+        <p></p>
       </div>
     );
   };
