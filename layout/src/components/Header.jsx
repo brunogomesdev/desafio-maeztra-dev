@@ -1,12 +1,5 @@
 import '../styles/header.scss'
 import React, { useState } from 'react';
-import logoMaeztra from '../assets/images/logo-maeztra-novo.png';
-import minhaConta from '../assets/images/minha-conta.svg';
-import meusFavoritos from '../assets/images/meus-favoritos.svg';
-import meuCarrinho from '../assets/images/meu-carrinho.svg';
-import mobBusca from '../assets/images/mob-busca.svg';
-import mobCarrinho from '../assets/images/mob-meu-carrinho.svg';
-import menuNovidades from '../assets/images/menu-novidades.svg';
 
 const Header = () => {
 
@@ -49,7 +42,7 @@ const Header = () => {
             </div>
             <div className="header-logo">
               <a href="#">
-                <img className="header-logo-img" src={logoMaeztra} alt="Maeztra"/>
+                <img className="header-logo-img" src="/src/assets/images/logo-maeztra-novo.png" alt="Maeztra"/>
               </a>
             </div>
 
@@ -62,15 +55,15 @@ const Header = () => {
             {/* Menu Icons (Desktop) */}
             <div className="header-icons">
               <a href="#" className="header-icon-account">
-                <img src={minhaConta} alt="Minha Conta" />
+                <img src="/src/assets/images/minha-conta.svg" alt="Minha Conta" />
                 Minha Conta
               </a>
               <a href="#" className="header-icon-fav">
-                <img src={meusFavoritos} alt="Meus Favoritos" />
+                <img src="/src/assets/images/meus-favoritos.svg" alt="Meus Favoritos" />
                 Meu Favoritos
               </a>
               <a href="#" className="header-icon-cart">
-                <img src={meuCarrinho} alt="Meu Carrinho" />
+                <img src="/src/assets/images/meu-carrinho.svg" alt="Meu Carrinho" />
                 Meu Carrinho
               </a>
             </div>
@@ -78,10 +71,10 @@ const Header = () => {
             {/* Menu Icons (Mobile) */}
             <div className="header-icons-mob">
               <a href="#" className="header-icon-busca-mob">
-                <img src={mobBusca} alt="Busca" onClick={toggleDiv} />
+                <img src="/src/assets/images/mob-busca.svg" alt="Busca" onClick={toggleDiv} />
               </a>
               <a href="#" className="header-icon-cart-mob">
-                <img src={mobCarrinho} alt="Meu Carrinho" />
+                <img src="/src/assets/images/mob-meu-carrinho.svg" alt="Meu Carrinho" />
               </a>
             </div>
           </div>
@@ -96,7 +89,7 @@ const Header = () => {
         </div>
         <div className="mz-menu">
           <div className="mz-menu-container">
-            <div className="mz-menu-itens mz-menu-itens-destaque"><a href="#"><img src={menuNovidades} alt="Novidades" />Novidades</a></div>
+            <div className="mz-menu-itens mz-menu-itens-destaque"><a href="#"><img src="/src/assets/images/menu-novidades.svg" alt="Novidades" />Novidades</a></div>
             <div className="mz-menu-itens"><a href="#">Vestidos</a></div>
             <div className="mz-menu-itens"><a href="#">Roupas</a></div>
             <div className="mz-menu-itens"><a href="#">Sapatos</a></div>

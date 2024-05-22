@@ -1,0 +1,65 @@
+#mz-beneficios {
+    font-family: 'Titillium Web', sans-serif;
+
+    .slider-titulo {
+        padding: 20px 0;
+        font-family: Titillium Web;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .slider-container {
+        max-width: 1600px;
+        margin: 0 auto;
+
+        .slick-slider {
+            .slick-arrow {
+                display: none !important;
+            }
+
+            .slick-dots {
+                display: none !important;
+            }
+
+            .slick-track {
+                .mz-beneficios-slider-image {
+                    display: flex;
+                    align-items: center;
+                    padding-right: 15px;
+                }
+                .mz-beneficios-slider-container {
+                    h3 {
+                        font-size: 14px;
+                        font-weight: 700;
+                        text-align: left;
+                        margin: 0;
+                    }
+                    p {
+                        font-size: 12px;
+                        font-weight: 400;
+                        text-align: left;
+                        margin: 0;
+                    }
+                }
+            }
+            .mz-beneficios-slider01, .mz-beneficios-slider02, .mz-beneficios-slider03, .mz-beneficios-slider04, .mz-beneficios-slider05 {
+                background: #EFEFEF;
+                padding: 20px;
+                width: 80% !important;
+                display: flex !important;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+/* Estilos específicos para Desktop */
+@media (min-width: 768px) {
+
+}
+
+/* Estilos específicos para Mobile */
+@media (max-width: 767px) {
+
+}
