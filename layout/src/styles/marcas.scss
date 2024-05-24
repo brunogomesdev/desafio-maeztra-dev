@@ -1,0 +1,52 @@
+#mz-marcas {
+    font-family: 'Titillium Web', sans-serif;
+
+    .slider-titulo {
+        padding: 20px 0;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .slider-container {
+        max-width: 1600px;
+        margin: 0 auto;
+
+        .slick-slider {
+            .slick-arrow {
+                display: none !important;
+            }
+
+            .slick-dots {
+                display: none !important;
+            }
+
+            .slick-track {
+                .mz-beneficios-slider-image {
+                    display: flex;
+                    align-items: center;
+                    padding-right: 15px;
+                }
+            }
+            .mz-marcas-slider {
+                padding: 20px;
+                width: 80% !important;
+                display: flex !important;
+                margin: 0 auto;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+/* Estilos específicos para Mobile */
+@media (max-width: 767px) {
+    #mz-marcas {    
+        .slider-titulo {
+            font-size: 24px;
+        }
+}
+}
