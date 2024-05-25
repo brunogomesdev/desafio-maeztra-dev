@@ -78,7 +78,7 @@ const Header = () => {
               </a>
             </div>
           </div>
-          <div class="header-search-input-mob">
+          <div className="header-search-input-mob">
               {isDivVisible && (
                   <div className="header-search-mob">
                   <input type="text" placeholder="O Que Você Busca?" />

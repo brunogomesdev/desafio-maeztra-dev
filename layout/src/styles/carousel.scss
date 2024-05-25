@@ -1,0 +1,117 @@
+#mz-carousel {
+    max-width: 1600px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #353535; 
+    margin: 0 auto;
+    margin-top: 40px;
+
+    .mz-carousel-titulo {
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+
+    }
+    
+    .mz-carousel-produtos {
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        height: 550px;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+
+        .mz-carousel-item {
+            margin: 10px;
+            padding: 10px;
+            width: 280px;
+            flex: none;
+
+            .mz-carousel-image {
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .mz-carousel-info {
+                height: 140px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 0 20px;
+
+                span {
+                    display: block;
+                    text-align: left;
+                }
+                .mz-carousel-colors {
+                    font-size: 16px;
+                }
+                .mz-carousel-price {
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+                .mz-carousel-name {
+                    font-size: 16px;
+                    font-weight: 600;
+                    padding: 5px 0;
+                }
+                .mz-carousel-description {
+                    font-size: 12px;
+                    padding: 10px 0;
+                }
+                .mz-carousel-button {
+                    font-size: 16px;
+                    color: #fff;
+                    background-color: #FAA500;
+                    text-align: center;
+                    padding: 5px 0;
+                    border-radius: 4px;
+                }
+
+            }
+        }
+    }
+
+    .mz-carousel-buttons {
+        width: 100%;
+        text-align: center;
+
+        button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            position: relative;
+            top: -300px;
+
+            &:first-child {
+                right: 45%;
+
+                img {
+                    transform: rotate(180deg);
+                }
+            }
+
+            &:last-child {
+                left: 45%;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }  
+    }
+}
+
+/* Estilos específicos para Mobile */
+@media (max-width: 767px) {
+    #mz-carousel {   
+        .mz-carousel-buttons {
+            display: none;
+        }
+    }
+}

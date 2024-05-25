@@ -1,5 +1,7 @@
 #mz-marcas {
     font-family: 'Titillium Web', sans-serif;
+    color: #353535;
+    margin-top: 40px; 
 
     .slider-titulo {
         padding: 20px 0;
@@ -29,8 +31,7 @@
                 }
             }
             .mz-marcas-slider {
-                padding: 20px;
-                width: 80% !important;
+                width: 95% !important;
                 display: flex !important;
                 margin: 0 auto;
             }
@@ -47,6 +48,9 @@
     #mz-marcas {    
         .slider-titulo {
             font-size: 24px;
+        }
+        .mz-marcas-slider-image {
+            margin: 0 auto;
         }
 }
 }
