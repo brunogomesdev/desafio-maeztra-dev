@@ -19,18 +19,18 @@ Node.js (>= 18) - https://nodejs.org/en/about/previous-releases
 1 - Inicie o servidor de desenvolvimento:
     npm run dev
 
-Isso abrirá o aplicativo no navegador (geralmente em http://localhost:5173/).
+Isso abrirá o aplicativo no navegador http://localhost:5173/
 
 2 - Faça alterações no código React e veja as atualizações refletidas instantaneamente no navegador com HMR.
 
 ## Build de Produção
-1 - Crie um build otimizado para produção:
+1 - Crie um build otimizado para produção:<br/>
     npm run build
 
 Isso criará uma pasta dist contendo os arquivos compilados da sua aplicação.
 
 ## Script Disponíveis
-npm run dev: Inicia o servidor de desenvolvimento
+npm run dev: Inicia o servidor de desenvolvimento<br/>
 npm run build: Cria um build de produção
 
 ## Contribuindo
