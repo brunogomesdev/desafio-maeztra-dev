@@ -21,6 +21,7 @@ const handleRightClick = (e) => {
   carouselProdutos.current.scrollLeft += carouselProdutos.current.offsetWidth;
 }
 
+
 if (!data || !data.length) return null;
 
     return (
@@ -29,13 +30,22 @@ if (!data || !data.length) return null;
         <div className="mz-carousel-produtos" ref={carouselProdutos}>
 
           {data.map((item) => {
-            const {id, name, price, description, image} = item;
+            const {id, sku, name, price, description, image} = item;
             return (
               <div className="mz-carousel-item" key={id}>
                 <div className="mz-carousel-image">
                   <img src={image} alt={name} />
                 </div>
                 <div className="mz-carousel-info">
+                  <span className="mz-carousel-sku">
+                  <ul>
+                    {sku.map((skuValue, index) => (
+                    <li key={index}>
+                        <span className={skuValue}></span>
+                    </li>
+                    ))}
+                  </ul>
+                  </span>
                   <span className="mz-carousel-price">{price}</span>
                   <span className="mz-carousel-name">{name}</span>
                   <span className="mz-carousel-description">{description}</span>

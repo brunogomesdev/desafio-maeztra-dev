@@ -16,7 +16,7 @@
         display: flex;
         overflow-x: auto;
         scroll-behavior: smooth;
-        height: 550px;
+        height: 610px;
 
         &::-webkit-scrollbar {
             display: none;
@@ -43,6 +43,52 @@
                 flex-direction: column;
                 justify-content: space-between;
                 padding: 0 20px;
+
+                .mz-carousel-sku {
+                    ul {
+                        display: flex;
+                        list-style-type: none;
+                        padding: 0;
+                        margin: 5px 0px 10px 0;                       
+
+                        li {
+                            margin-right: 8px;
+
+                            span {
+                                width: 27px;
+                                height: 27px;
+                                border-radius: 4px;
+                                cursor: pointer;
+                            }
+
+                            .marrom {
+                                background-color: #DEAC71;
+                                border: 1px solid #353535;
+                            }
+                            .bordo {
+                                background-color: #D37164;
+                            }
+                            .azul {
+                                background-color: #6497D3;
+                            }
+                            .roxo {
+                                background-color: #3C3B79;
+                            }
+                            .preto {
+                                background-color: #1C1A19;
+                            }
+                            .vermelho {
+                                background-color: #D84E4B;
+                            }
+                            .bege {
+                                background-color: #CFC9B0;
+                            }
+                            .cinza {
+                                background-color: #EAE9E5;
+                            }
+                        }
+                    }
+                }
 
                 span {
                     display: block;
@@ -86,7 +132,7 @@
             border: none;
             cursor: pointer;
             position: relative;
-            top: -300px;
+            top: -360px;
 
             &:first-child {
                 right: 45%;
