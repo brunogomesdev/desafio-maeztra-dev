@@ -32,7 +32,7 @@ const Beneficios = () => {
             
               <div className="mz-beneficios-slider01">
                 <div className="mz-beneficios-slider-image">
-                  <img src="/src/assets/images/icon-beneficios-01.png" alt="Produtos importados" />
+                  <img src="/desafio-maeztra-dev/layout/src/assets/images/icon-beneficios-01.png" alt="Produtos importados" />
                 </div>
                 <div className="mz-beneficios-slider-container">
                   <h3>Produtos importados</h3>
@@ -42,7 +42,7 @@ const Beneficios = () => {
 
               <div className="mz-beneficios-slider02">
                 <div className="mz-beneficios-slider-image">
-                  <img src="/src/assets/images/icon-beneficios-02.png" alt="Estoque no Brazil" />
+                  <img src="/desafio-maeztra-dev/layout/src/assets/images/icon-beneficios-02.png" alt="Estoque no Brazil" />
                 </div>
                 <div className="mz-beneficios-slider-container">
                   <h3>Estoque no Brazil</h3>
@@ -52,7 +52,7 @@ const Beneficios = () => {
 
               <div className="mz-beneficios-slider03">
                 <div className="mz-beneficios-slider-image">
-                  <img src="/src/assets/images/icon-beneficios-03.png" alt="Trocas Garantidas" />
+                  <img src="/desafio-maeztra-dev/layout/src/assets/images/icon-beneficios-03.png" alt="Trocas Garantidas" />
                 </div>
                 <div className="mz-beneficios-slider-container">
                   <h3>Trocas Garantidas</h3>
@@ -62,7 +62,7 @@ const Beneficios = () => {
 
               <div className="mz-beneficios-slider04">
                 <div className="mz-beneficios-slider-image">
-                  <img src="/src/assets/images/icon-beneficios-04.png" alt="Ganhe 5% off" />
+                  <img src="/desafio-maeztra-dev/layout/src/assets/images/icon-beneficios-04.png" alt="Ganhe 5% off" />
                 </div>
                 <div className="mz-beneficios-slider-container">
                   <h3>Ganhe 5% off</h3>
@@ -72,7 +72,7 @@ const Beneficios = () => {
 
               <div className="mz-beneficios-slider05">
                 <div className="mz-beneficios-slider-image">
-                  <img src="/src/assets/images/icon-beneficios-05.png" alt="Produtos importados" />
+                  <img src="/desafio-maeztra-dev/layout/src/assets/images/icon-beneficios-05.png" alt="Produtos importados" />
                 </div>
                 <div className="mz-beneficios-slider-container">
                   <h3>Frete Grátis</h3>

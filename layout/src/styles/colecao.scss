@@ -1,0 +1,61 @@
+#mz-colecao {
+    font-family: 'Titillium Web', sans-serif;
+    color: #000;
+    margin-top: 40px;
+    
+    .mz-colecao-container {
+        max-width: 1600px;
+        margin: 0 auto;
+        display: flex;
+
+        .mz-colecao-texto {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+            padding: 0 65px 0 10px;
+
+            .mz-colecao-titulo {
+                font-size: 24px;
+                font-weight: 700;
+                padding: 10px 0;
+                margin: 0;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+
+        .mz-colecao-imagem {
+            img {
+                border-radius: 4px;
+            }
+        }
+    }
+}
+
+/* Estilos específicos para Mobile */
+@media (max-width: 767px) {
+    #mz-colecao{   
+        margin-top: 10px;
+
+        .mz-colecao-container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            .mz-colecao-texto {
+                padding: 0 30px;
+            }
+
+            .mz-colecao-imagem {
+                padding: 20px 30px;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

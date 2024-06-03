@@ -42,7 +42,7 @@ const Header = () => {
             </div>
             <div className="header-logo">
               <a href="#">
-                <img className="header-logo-img" src="/src/assets/images/logo-maeztra-novo.png" alt="Maeztra"/>
+                <img className="header-logo-img" src="/desafio-maeztra-dev/layout/src/assets/images/logo-maeztra-novo.png" alt="Maeztra"/>
               </a>
             </div>
 
@@ -55,15 +55,15 @@ const Header = () => {
             {/* Menu Icons (Desktop) */}
             <div className="header-icons">
               <a href="#" className="header-icon-account">
-                <img src="/src/assets/images/minha-conta.svg" alt="Minha Conta" />
+                <img src="/desafio-maeztra-dev/layout/src/assets/images/minha-conta.svg" alt="Minha Conta" />
                 Minha Conta
               </a>
               <a href="#" className="header-icon-fav">
-                <img src="/src/assets/images/meus-favoritos.svg" alt="Meus Favoritos" />
+                <img src="/desafio-maeztra-dev/layout/src/assets/images/meus-favoritos.svg" alt="Meus Favoritos" />
                 Meu Favoritos
               </a>
               <a href="#" className="header-icon-cart">
-                <img src="/src/assets/images/meu-carrinho.svg" alt="Meu Carrinho" />
+                <img src="/desafio-maeztra-dev/layout/src/assets/images/meu-carrinho.svg" alt="Meu Carrinho" />
                 Meu Carrinho
               </a>
             </div>
@@ -71,10 +71,10 @@ const Header = () => {
             {/* Menu Icons (Mobile) */}
             <div className="header-icons-mob">
               <a href="#" className="header-icon-busca-mob">
-                <img src="/src/assets/images/mob-busca.svg" alt="Busca" onClick={toggleDiv} />
+                <img src="/desafio-maeztra-dev/layout/src/assets/images/mob-busca.svg" alt="Busca" onClick={toggleDiv} />
               </a>
               <a href="#" className="header-icon-cart-mob">
-                <img src="/src/assets/images/mob-meu-carrinho.svg" alt="Meu Carrinho" />
+                <img src="/desafio-maeztra-dev/layout/src/assets/images/mob-meu-carrinho.svg" alt="Meu Carrinho" />
               </a>
             </div>
           </div>
@@ -89,7 +89,7 @@ const Header = () => {
         </div>
         <div className="mz-menu">
           <div className="mz-menu-container">
-            <div className="mz-menu-itens mz-menu-itens-destaque"><a href="#"><img src="/src/assets/images/menu-novidades.svg" alt="Novidades" />Novidades</a></div>
+            <div className="mz-menu-itens mz-menu-itens-destaque"><a href="#"><img src="/desafio-maeztra-dev/layout/src/assets/images/menu-novidades.svg" alt="Novidades" />Novidades</a></div>
             <div className="mz-menu-itens"><a href="#">Vestidos</a></div>
             <div className="mz-menu-itens"><a href="#">Roupas</a></div>
             <div className="mz-menu-itens"><a href="#">Sapatos</a></div>

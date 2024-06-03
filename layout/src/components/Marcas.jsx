@@ -32,31 +32,31 @@ const Marcas = () => {
             
               <div className="mz-marcas-slider">
                 <div className="mz-marcas-slider-image">
-                  <img src="/src/assets/images/marcas-01.png" alt="Comma" />
+                  <img src="/desafio-maeztra-dev/layout/src/assets/images/marcas-01.png" alt="Comma" />
                 </div>
               </div>
 
               <div className="mz-marcas-slider">
                 <div className="mz-marcas-slider-image">
-                  <img src="/src/assets/images/marcas-02.png" alt="Melisa" />
+                  <img src="/desafio-maeztra-dev/layout/src/assets/images/marcas-02.png" alt="Melisa" />
                 </div>
               </div>
 
               <div className="mz-marcas-slider">
                 <div className="mz-marcas-slider-image">
-                  <img src="/src/assets/images/marcas-03.png" alt="Forever 21" />
+                  <img src="/desafio-maeztra-dev/layout/src/assets/images/marcas-03.png" alt="Forever 21" />
                 </div>
               </div>
 
               <div className="mz-marcas-slider">
                 <div className="mz-marcas-slider-image">
-                  <img src="/src/assets/images/marcas-04.png" alt="Zara" />
+                  <img src="/desafio-maeztra-dev/layout/src/assets/images/marcas-04.png" alt="Zara" />
                 </div>
               </div>
 
               <div className="mz-marcas-slider">
                 <div className="mz-marcas-slider-image">
-                  <img src="/src/assets/images/marcas-05.png" alt="Ann Taylor" />
+                  <img src="/desafio-maeztra-dev/layout/src/assets/images/marcas-05.png" alt="Ann Taylor" />
                 </div>
               </div>
             

@@ -6,7 +6,7 @@ const Carousel = () => {
   const carouselProdutos = useRef(null);
 
   useEffect(() => {
-    fetch('http://localhost:5173/src/assets/produtos.json')
+    fetch('http://localhost:5173/desafio-maeztra-dev/layout/src/assets/produtos.json')
     .then((response)=> response.json())
     .then(setData)
 }, [])
@@ -57,8 +57,8 @@ if (!data || !data.length) return null;
 
         </div>
         <div className="mz-carousel-buttons">
-          <button onClick={handleLeftClick}><img src="/src/assets/images/next.png" alt="Arrow Left" /></button>
-          <button onClick={handleRightClick}><img src="/src/assets/images/next.png" alt="Arrow Right" /></button>
+          <button onClick={handleLeftClick}><img src="/desafio-maeztra-dev/layout/src/assets/images/next.png" alt="Arrow Left" /></button>
+          <button onClick={handleRightClick}><img src="/desafio-maeztra-dev/layout/src/assets/images/next.png" alt="Arrow Right" /></button>
         </div>
       </div>
     );
